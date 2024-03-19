@@ -7,9 +7,11 @@ elements.click((e)=> console.log(e))
 $(elements).click(function(){
     $('.thing').each(function(index, element) {
         console.log(element.style.zIndex)
-        let aaryan = element.style.zIndex
-        element.style.zIndex = aaryan + 1
+        let layer = element.style.zIndex
+        element.style.zIndex = layer + 1
     })
     $(this).css("z-index", "0")
+    // $(this).css("background", "white")
+
 
 })

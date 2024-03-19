@@ -1,22 +1,91 @@
 body {
     overflow: auto;
+    cursor: pointer;
+    background-color: black;
+}
+
+::selection {
+    background: red;
 }
 
 .thing {
     position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 350pt;
+    /* background: rgba(0, 0, 0, 1); */
+    /* mix-blend-mode: overlay; */
+    /* mix-blend-mode: difference; */
 }
 
 #title {
-    font-size: 300pt;
+    font-size: 200pt;
+    line-height: 170pt;
     z-index: 1000;
+    width: 1000pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+    background-color: lightgray;
+    /* transition: all 1s ease; */
+
 }
+
+/* #title:hover{
+    transform: scale(2);
+} */
 
 #subtitle {
     z-index: 999;
-    color: red;
-    font-size: 300pt;
+    color: pink;
+    font-size: 100pt;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 7vh;
+    background-color: red; 
+
+}
+
+.name {
+    z-index: 998;
+    color: green;
+    font-size: 70pt;
+    line-height: 60pt;
+    top: 10vh;
+    left: 10vw;
+    background-color: aliceblue;
+}
+
+.date {
+    z-index: 997;
+    color: navy;
+    background-color: lightblue;
+    font-size: 70pt;
+    line-height: 60pt;
+    top: 400pt;
+    left: 350pt;
+
+}
+
+.time {
+    z-index: 996;
+    color: green;
+    font-size: 250pt;
+}
+
+.location {
+    z-index: 995;
+    color: purple;
+    font-size: 250pt;
+}
+
+.info {
+    z-index: 994;
+    color: yellow;
+    font-size: 50pt; 
+    line-height: 60pt;
+}
+
+.external_links {
+    z-index: 993;
+    color: white;
+    font-size: 100pt;
 }
 
 .bye {
