@@ -3,11 +3,16 @@
     src: url(fonts/TimesDotRom.otf);
 }
 
+* {
+    cursor: url("img/thing.png") 50 58, auto;
+    /* cursor: crosshair; */
+}
 
 body {
     overflow: auto;
-    cursor: pointer;
     background-color: black;
+    /* cursor: url("img/cool.png"), auto; */
+
 
 }
 
@@ -22,16 +27,23 @@ body {
     background-color: black;
 }
 
+#introbutton {
+    width: 10vw;
+    height: 10vh;
+    align: center;
+}
+
 .thing {
     position: absolute;
     line-height: 350pt;
+
     /* background: rgba(0, 0, 0, 1); */
     /* mix-blend-mode: overlay; */
     /* mix-blend-mode: difference; */
 }
 
 #title {
-    font-size: 20vw;
+    font-size: 150pt;
     line-height: 170pt;
     z-index: 999;
     width: 1000pt;
@@ -51,52 +63,6 @@ body {
     top: 10vh;
     left: 10vh;
     background-color: red; 
-}
-
-.name {
-    z-index: 998;
-    color: green;
-    font-size: 70pt;
-    line-height: 60pt;
-    top: 10vh;
-    left: 10vw;
-    background-color: aliceblue;
-}
-
-.date {
-    z-index: 997;
-    color: navy;
-    background-color: lightblue;
-    font-size: 70pt;
-    line-height: 60pt;
-    top: 400pt;
-    left: 350pt;
-
-}
-
-.time {
-    z-index: 996;
-    color: green;
-    font-size: 250pt;
-}
-
-.location {
-    z-index: 995;
-    color: purple;
-    font-size: 250pt;
-}
-
-.info {
-    z-index: 994;
-    color: yellow;
-    font-size: 50pt; 
-    line-height: 60pt;
-}
-
-.external_links {
-    z-index: 993;
-    color: white;
-    font-size: 100pt;
 }
 
 .bye {
