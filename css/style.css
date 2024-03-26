@@ -9,62 +9,8 @@
 }
 
 body {
-    overflow: auto;
+    overflow: none;
     background-color: black;
     /* cursor: url("img/cool.png"), auto; */
-
-
 }
 
-::selection {
-    background: red;
-}
-
-#intro {
-    z-index: 1000;
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-}
-
-#introbutton {
-    width: 10vw;
-    height: 10vh;
-    align: center;
-}
-
-.thing {
-    position: absolute;
-    line-height: 350pt;
-
-    /* background: rgba(0, 0, 0, 1); */
-    /* mix-blend-mode: overlay; */
-    /* mix-blend-mode: difference; */
-}
-
-#title {
-    font-size: 150pt;
-    line-height: 170pt;
-    z-index: 999;
-    width: 1000pt;
-    height: 350pt;
-    top: 10vh;
-    padding: 1%;
-    font-family: "TimesDot";
-    color: purple;
-    background-color: lightgray;
-}
-
-#subtitle {
-    z-index: 998;
-    color: pink;
-    font-size: 100pt;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 10vh;
-    left: 10vh;
-    background-color: red; 
-}
-
-.bye {
-    display: none;
-}
