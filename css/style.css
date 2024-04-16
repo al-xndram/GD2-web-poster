@@ -24,13 +24,17 @@ body {
     width: 100%;
 }
 
+
+
+/*  */
+
 #title {
     position: absolute;
     top: 7vh;
     left: 15vw;
     padding: 40px;
-    width: 500px;
-    background-color: rgb(227, 0, 231);
+    width: 550px;
+    background-color: magenta;
     
     font-family: 'Nuances';
     font-size: 80pt;
@@ -58,13 +62,17 @@ body {
     width: 450px;
 }
 
+::selection {
+    background: none;
+}
 
 
 /*  */
 
 #anther1, #anther2, #anther-info, #anther-bio, #anther-iframe,
 #emi, #and, #michelle, #emi-info, #emi-bio, #emi-iframe,
-#kang1, #kang2, #kang-info, #kang-bio, #kang-iframe
+#kang1, #kang2, #kang-info, #kang-bio, #kang-iframe, 
+#seb1, #seb2, #seb-info, #seb-bio, #seb-iframe
 {
     position: absolute;
     padding: 20px;
@@ -75,10 +83,10 @@ img {
 }
 
 .glow {
-    box-shadow: 0 0 10px rgb(132, 0, 255);
+    box-shadow: 0 0 10px magenta;
 }
 
-#anther1, #anther2, #emi, #and, #michelle, #kang1, #kang2 {
+#anther1, #anther2, #emi, #and, #michelle, #kang1, #kang2, #seb1, #seb2 {
     box-shadow: 0 0 40px rgb(55, 0, 255);
 }
 
@@ -95,7 +103,7 @@ img {
 }
 
 #anther1 {
-    left: 3vw;
+    left: 25vw;
     top: 70vh;
 }
 
@@ -179,7 +187,7 @@ img {
     color:#4666B6;
     width: 550px;
     top: 60vh;
-    left: 27vw;
+    left: 6vw;
 }
 
 #kang-iframe{
@@ -190,4 +198,30 @@ img {
 }
 
 
+
 /* Seb */
+
+#seb1, #seb2 {
+    font-family: 'Nuances';
+    background-color: #f0e6ff;
+    font-size: 72pt;
+    color: #b353d6;
+}
+
+#seb-info {
+    font-family: 'Nuances';
+    color: #f0e6ff;
+    font-size: 48pt;
+    background-color: #b353d6;
+    top: 27vh;
+    left: 27vw;
+}
+
+#seb-bio{
+    font-family: "TimesDot";
+    background-color: #f0e6ff;
+    color:#b353d6;
+    width: 300px;
+    top: 23vh;
+    left: 10vw;
+}
