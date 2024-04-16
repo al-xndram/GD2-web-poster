@@ -26,36 +26,25 @@ body {
 
 #title {
     position: absolute;
-    top: 6vh;
-    left: 20vw;
+    top: 7vh;
+    left: 15vw;
     padding: 40px;
     width: 500px;
-    background-color: rgb(255, 239, 255);
+    background-color: rgb(227, 0, 231);
     
     font-family: 'Nuances';
     font-size: 80pt;
-    color: rgb(132, 0, 255);
-}
-
-#frosty {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    background-color: rgb(227, 227, 255);
-    opacity: 0.2;
-    backdrop-filter: blur(5px);
+    color: rgb(255, 239, 255);
 }
 
 #subtitle1, #subtitle2 {    
     position: absolute;
     padding: 20px;
-    background-color: rgb(234, 234, 255);
+    background-color: rgb(175, 138, 255);
 
     font-family: 'Nuances';
     font-size: 100pt;
-    color: blue;
+    color: rgb(234, 234, 255);
 }
 
 #subtitle1 {
@@ -64,14 +53,14 @@ body {
 }
 
 #subtitle2 {
-    top: 50vh;
+    top: 47vh;
     left: 23vw;
     width: 450px;
 }
 
 
-/*  */
 
+/*  */
 
 #anther1, #anther2, #anther-info, #anther-bio, #anther-iframe,
 #emi, #and, #michelle, #emi-info, #emi-bio, #emi-iframe,
@@ -81,9 +70,18 @@ body {
     padding: 20px;
 }
 
-.glow {
-    box-shadow: 0 0 10px rgb(255, 0, 247);
+img {
+    position: absolute;
 }
+
+.glow {
+    box-shadow: 0 0 10px rgb(132, 0, 255);
+}
+
+#anther1, #anther2, #emi, #and, #michelle, #kang1, #kang2 {
+    box-shadow: 0 0 40px rgb(55, 0, 255);
+}
+
 
 
 
@@ -106,16 +104,12 @@ body {
     top: 10vh;
 }
 
-img {
-    position: absolute;
-}
-
 #anther-info {
     font-family: 'Nuances';
     background-color: rgb(0, 175, 202);
     font-size: 48pt;
     color: rgb(212, 254, 255);
-    top: 20vh;
+    top: 7vh;
     left: 25vw;
 }
 
@@ -127,6 +121,7 @@ img {
     top: 17vh;
     left: 40vw;
 }
+
 
 
 
@@ -154,7 +149,7 @@ img {
     background-color: #C0FFDE;
     color:#00BA8E;
     width: 400px;
-    top: 20vh;
+    top: 23vh;
     left: 13vw;
 }
 
@@ -175,7 +170,7 @@ img {
     font-size: 48pt;
     background-color: #4666B6;
     top: 33vh;
-    left: 25vw;
+    left: 53vw;
 }
 
 #kang-bio{
@@ -193,3 +188,6 @@ img {
     height: 400px;
     width: 400px;
 }
+
+
+/* Seb */
