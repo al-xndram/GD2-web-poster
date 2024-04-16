@@ -31,3 +31,10 @@ $(document).ready(function(){
         }
     });
 });
+
+$(document).ready(function() {
+    $('.click').click(function() {
+        $('#clickSound')[0].currentTime = 0;
+        $('#clickSound')[0].play(); 
+    });
+});
