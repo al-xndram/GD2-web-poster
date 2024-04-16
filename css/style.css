@@ -9,7 +9,7 @@
 }
 
 * {
-    cursor: url("img/clickm.png") 50 58, auto;
+    /* cursor: url("img/clickm.png") 50 58, auto; */
 }
 
 body {
@@ -25,8 +25,29 @@ body {
 }
 
 
+/* landing page */
 
-/*  */
+#button {
+    text-decoration: none;
+
+    position: absolute;
+    top: 7vh;
+    left: 15vw;
+    padding: 40px;
+    width: 550px;
+    background-color: magenta;
+    
+    font-family: 'Nuances';
+    font-size: 80pt;
+    color: rgb(255, 239, 255);
+}
+
+#button:hover{
+    cursor: url("img/clickm.png") 50 58, auto;
+}
+
+
+/* main page */
 
 #title {
     position: absolute;
