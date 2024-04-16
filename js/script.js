@@ -1,21 +1,33 @@
+let defaultZ = 9999;
 
-var elements = $('.click');
-var z = 9999
-console.log(elements);
 
-elements.click((e)=> console.log(e))
+$(".click").click(function(e){
+    
 
-$(elements).click(function(){
-    $('.click').each(function(index, element) {
-        console.log(element.style.zIndex)
-        let layer = element.style.zIndex
-        element.style.zIndex = layer + 1
-    })
-
-    z=z-1;
-
-    $(this).css("z-index", z)
-    // $(this).css("background", "white")
-
+    console.log(e.target.classList.value)
+    
+     if (! e.target.classList.value.includes("dontCycle") )   {
+        defaultZ=defaultZ-1;
+        $(this).css({
+            "z-index":defaultZ
+        })
+     }
+    
 
 })
+
+
+$("")
+
+
+$(document).ready(function(){
+    var maxZIndex = Math.max.apply(null, $('.click').map(function(){
+        return parseInt($(this).css('z-index')) || 1;
+    }).get());
+
+    $('.click').each(function(){
+        if (parseInt($(this).css('z-index')) == defaultZ) {
+            $(this).children().addClass('glow');
+        }
+    });
+});
