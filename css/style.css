@@ -103,8 +103,8 @@ img {
 }
 
 #anther1 {
-    left: 25vw;
-    top: 70vh;
+    left: 14vw;
+    top: 60vh;
 }
 
 #anther2 {
@@ -224,4 +224,60 @@ img {
     width: 300px;
     top: 23vh;
     left: 10vw;
+}
+
+
+
+/* media query */
+
+
+@media screen and (max-width: 1000px) {
+
+    #title, #subtitle1, #subtitle2, #anther1, #anther2, #anther-info, #anther-bio, #anther-iframe,
+    #emi, #and, #michelle, #emi-info, #emi-bio, #emi-iframe,
+    #kang1, #kang2, #kang-info, #kang-bio, #kang-iframe, 
+    #seb1, #seb2, #seb-info, #seb-bio, #seb-iframe {
+        transform: scale(0.55);
+        transform-origin: center left;
+    }
+
+    img {
+        transform: scale(0.45);
+    }
+
+    p {
+        font-size: 18pt;
+    }
+
+    #anther2 {
+        left: 50vw;
+    }
+
+    #anther-bio {
+        left: 55vw;
+        width: 330px;
+    }
+
+    #emi-info {
+        top: 30vh;
+        width: 400px;
+    }
+
+    #emi-bio {
+        width: 700px;
+        top: 50vh;
+    }
+
+    #kang-info {
+        top: 50vh;
+    }
+        
+    #kang-bio {
+        top: 40vh;
+    }
+
+    #seb-bio {
+        width: 330px;
+    }
+
 }
